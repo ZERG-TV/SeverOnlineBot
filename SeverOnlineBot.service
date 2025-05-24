@@ -9,3 +9,9 @@ ExecStart=/home/t/my_bot/myenv/bin/python /home/t/my_bot/SeverOnlineBot.py
 
 [Install]
 WantedBy=multi-user.target
+# /etc/systemd/system/SeverOnlineBot.service
+# sudo systemctl daemon-reload
+# sudo systemctl start SeverOnlineBot.service
+# sudo systemctl status SeverOnlineBot.service
+# sudo systemctl enable SeverOnlineBot.service
+
