@@ -1,0 +1,11 @@
+[Unit]
+Description=SeverOnlineBot
+
+[Service]
+Type=simple
+User=t  # Укажите ваше имя пользователя
+WorkingDirectory=/home/t/my_bot  # Укажите путь к директории с ботом
+ExecStart=/home/t/my_bot/myenv/bin/python /home/t/my_bot/SeverOnlineBot.py
+
+[Install]
+WantedBy=multi-user.target
